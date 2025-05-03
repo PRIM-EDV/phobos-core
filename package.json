@@ -1,0 +1,14 @@
+{
+  "name": "@phobos-maptool/core",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@angular/core": "^19.0.0"
+  },
+  "private": true
+}
