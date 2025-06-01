@@ -1,1 +1,1 @@
-export * from './interfaces/token.service.interface';
+export * from './interfaces/token.service.interface.js'
