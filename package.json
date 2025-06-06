@@ -11,11 +11,13 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
+    "build": "tsc"
   },
   "dependencies": {
     "@angular/core": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
   },
   "private": true
 }
