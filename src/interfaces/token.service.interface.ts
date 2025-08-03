@@ -1,4 +1,4 @@
-import { InjectionToken, Signal } from "@angular/core";
+import { InjectionToken } from "@angular/core";
 
 export interface ITokenService {
     accessToken: () => Promise<string | null>;
