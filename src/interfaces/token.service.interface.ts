@@ -1,7 +1,7 @@
-import { InjectionToken, Signal } from "@angular/core";
+import { InjectionToken, WritableSignal } from "@angular/core";
 
 export interface ITokenService {
-    accessToken: () => Signal<string | null>;
+    accessToken: () => WritableSignal<string | null>;
 }
 
 export const TOKEN_SERVICE_TOKEN = new InjectionToken<ITokenService>('TokenServiceToken');
