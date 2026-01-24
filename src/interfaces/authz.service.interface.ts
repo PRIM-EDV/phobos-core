@@ -1,4 +1,4 @@
-import { InjectionToken, WritableSignal } from "@angular/core";
+import { InjectionToken } from "@angular/core";
 
 export interface IAuthzService {
    hasRole(role: string): boolean
