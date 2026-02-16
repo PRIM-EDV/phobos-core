@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "",
   "projects": {
-    "phobos-elements": {
+    "phobos-core": {
       "projectType": "library",
       "root": "lib",
       "sourceRoot": "lib/src",
